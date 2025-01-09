@@ -12,7 +12,7 @@ conn.commit()
 cursor.execute("SELECT * FROM users;")
 for row in cursor.fetchall():
     print(row)
-
+#close db
 cursor.close()
 conn.close()
 
